@@ -35,7 +35,7 @@ def premier_league():  # creating a user defined function
             # .txt is used convert the scraped data into text format...if not done so data is returned in html format
 
             epl_games_played = row.find_all('td',class_='standing-table__cell')[2].text.strip()
-            # for indexing open page source of that webpage first
+            # for indexing simply open page source of that webpage first
             # and carefully analyze the suitable index in each case for that table data
             # Note: index always starts from 0
 
