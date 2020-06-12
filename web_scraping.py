@@ -54,7 +54,7 @@ def premier_league():  # creating a user defined function
 
             epl_total_points = row.find_all('td', class_='standing-table__cell')[9].text.strip()
 
-            # no need to create an index or serial no for above data as pandas's DataFrame does that by default and indexing starts from 0
+            # no need to create an index or serial no for above data as pandas's DataFrame does that by default 
 
             league_data = {
                 'Clubs' : epl_club,
